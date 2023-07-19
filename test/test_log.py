@@ -14,3 +14,4 @@ class Testing:
         self.l.enter_email(self.useremail)
         self.l.enter_pass(self.userpass)
         self.l.submit()
+        self.driver.close()
